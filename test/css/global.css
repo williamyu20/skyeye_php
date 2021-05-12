@@ -1,0 +1,140 @@
+:root{
+    --colorBlueGrey: #263238;
+    --colorPrimary: #80cbc4;
+    --colorPrimaryClicked: #6EADA7;
+    --colorBlue: #3F51B5;
+    --colorBlueClicked: #344396;
+}
+
+body{
+    background: var(--colorBlueGrey) !important;
+    color: white !important;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.blackText{
+    color: black;
+}
+
+.missionContainer,
+.pageHeaderBar{
+    background-color: var(--colorPrimary) !important;
+    color: white;
+    overflow: hidden;
+}
+
+.missionTitle{
+    font-size: xx-large;
+}
+
+.missionDetailsText{
+    font-size: medium;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: x-large !important;
+    padding-right: 28px !important;
+}
+
+.nav-link:hover{
+    color: var(--colorBlueGrey) !important;
+}
+
+.loginBox{
+    border: var(--colorPrimary) 2px solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.btn-SkyEyeBlue{
+    background-color: var(--colorBlue) !important;
+    border-color: var(--colorBlue) !important;
+}
+
+.btn-SkyEyeBlue:hover{
+    background-color: var(--colorBlueClicked) !important;
+}
+
+.btn-SkyEyeBlue:focus {
+    box-shadow: 0 0 0 0.2rem var(--colorBlue) !important;
+}
+
+.btn-SkyEyeGreen{
+    background-color: var(--colorPrimary) !important;
+    border-color: var(--colorPrimary) !important;
+    position: relative;
+    text-align: center;
+}
+
+.btn-SkyEyeGreen:hover{
+    background-color: var(--colorPrimaryClicked) !important;
+}
+
+.btn-SkyEyeGreen:focus {
+    box-shadow: 0 0 0 0.2rem var(--colorPrimary) !important;
+}
+
+.btn-warning{
+    color: white;
+}
+
+.btn-warning:hover, .btn-warning:focus{
+    color: white;
+}
+
+.errorMsg{
+    color: var(--danger);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*
+mobile layout
+*/
+@media only screen and (max-width: 768px){
+    .center{
+        width: 80%;
+    }
+
+    .pageTitle,
+    .nav-link{
+        font-size: large !important;
+    }
+}
+/*
+tablet layout
+*/
+@media only screen and (min-width: 600px) and (max-width: 1090px){
+    .center{
+        width: 50%;
+    }
+
+    .pageTitle,
+    .nav-link{
+        font-size: large !important;
+    }
+}
+        #googleMap{
+            color: black;
+        }
+        .map-responsive{
+            overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
+        }
