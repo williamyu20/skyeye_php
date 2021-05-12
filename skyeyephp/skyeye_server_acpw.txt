@@ -1,0 +1,5 @@
+SkyEye Website FTP:
+Website domain: https://dsafyp1819skyeye.azurewebsites.net
+FTP: ftps://waws-prod-hk1-007.ftp.azurewebsites.windows.net/site/wwwroot
+username: dsafyp1819SkyEye\dsafyp1819skyeye
+password: skyeye1819
